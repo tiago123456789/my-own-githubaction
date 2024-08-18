@@ -1,6 +1,6 @@
 ## About
 
-The project is one api create your own Github actions to run your Github action pipelines.
+The project is one api to allow you have your own Github actions to run your Github action pipelines.
 
 ## Requirements
 
