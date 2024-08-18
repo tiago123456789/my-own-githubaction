@@ -1,6 +1,6 @@
 ## About
 
-My own GithubAction
+The project is one api create your own Github actions to run your Github action pipelines.
 
 ## Requirements
 
