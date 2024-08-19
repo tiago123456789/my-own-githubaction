@@ -9,6 +9,13 @@ The project is one api to allow you have your own Github actions to run your Git
 - Act installed. Tip: https://nektosact.com/installation/index.html to install act in your OS.
 - Pm2 installed. Tip: can be helpfull tool to keep to golang api and job process running forever.
 
+## Tecnologies
+
+- Golang
+- Database(sqlite)
+- Queue(Redis + asynq)
+- Act to run Github Action pipeline
+
 ## Instructions
 
 - Clone project
