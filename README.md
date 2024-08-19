@@ -18,6 +18,7 @@ The project is one api to allow you have your own Github actions to run your Git
 - Execute command **go run cmd/api/main.go** to start api at address http://localhost:3000 .
 - Execute command **go run cmd/job/main.go** to start job process when is reponsable to consume message from the queue and execute GithubAction pipeline.
 - Execute command **bash scripts/deploy.sh** to build the project and execute using pm2.
+- Import the file named **insomnia.json** on Insominia to test the endpoints.
 
 
 ## Architecture

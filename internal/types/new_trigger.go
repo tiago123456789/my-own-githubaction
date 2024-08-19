@@ -1,5 +1,6 @@
 package types
 
 type NewTrigger struct {
-	Url string `json:"webhookUrl"`
+	WebhookUrl   string `json:"webhookUrl"`
+	GithubSecret string `json:"secret"`
 }

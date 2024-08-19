@@ -208,7 +208,7 @@ func (t *TriggerService) ProcessPipeline(payload []byte) error {
 
 	if p.Trigger.HasEnvs {
 		commandsToExecute += " --secret-file ../%s"
-		paramsCommand = append(paramsCommand, fileName)
+		paramsCommand = append(paramsCommand, fmt.Sprintf(".env.%s", p.ID))
 	}
 
 	cmd := exec.Command(

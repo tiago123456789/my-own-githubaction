@@ -109,7 +109,8 @@ func main() {
 		}
 
 		return c.JSON(types.NewTrigger{
-			Url: webhookUrl,
+			WebhookUrl:   webhookUrl,
+			GithubSecret: trigger.Hash,
 		})
 	})
 
